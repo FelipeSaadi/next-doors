@@ -3,7 +3,8 @@ import Gift from "@/components/gift";
 
 export default function Home() {
   return (
-    <div>
+    <div style={{display: "flex"}}>
+      <Door selected />
       <Door />
       <Gift />
     </div>
