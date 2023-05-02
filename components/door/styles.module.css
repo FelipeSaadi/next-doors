@@ -1,11 +1,16 @@
 .area {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+
   width: var(--area-door-width);
   height: var(--area-door-height);
+  margin-left: 5px;
 }
 
 .structure {
   display: flex;
+  width: 90%;
   flex: 1;
   border: solid 5px brown;
   border-bottom: 0;
@@ -22,4 +27,10 @@
 
 .number {
   font-size: 3rem;
+}
+
+.floor {
+  height: 10px;
+  width: 100%;
+  background-color: #ddd;
 }
